@@ -1,0 +1,28 @@
+// how to declare while loop
+while (condition) 
+{
+  // code block to be executed
+}
+// example
+int i = 0;
+while (i < 5) 
+{
+  Console.WriteLine(i);
+  i++;
+}
+
+// DO-while
+do 
+{
+  // code block to be executed
+}
+while (condition);
+
+// example
+int i = 0;
+do 
+{
+  Console.WriteLine(i);
+  i++;
+}
+while (i < 5);
