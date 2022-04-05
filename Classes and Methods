@@ -1,0 +1,33 @@
+// This is the main class
+// this class takes member properties from class Human
+using System;
+
+class Animal {
+  public static void Main (string[] args) {
+    Human obj1 = new Human("Charity", 23, 5.0);
+    Console.WriteLine(obj1.name);
+    Console.WriteLine(obj1.height);
+  }
+}
+
+//
+using System;
+public class Human {
+  // Member properties
+  public string name;
+  public int age;
+  public double height;
+
+  // Member constructor
+  public Human(string name, int age, double height) {
+    this.name = name;
+    this.age = age;
+    this.height = height;
+  }
+
+  // Member method
+  public static void walk()
+  {
+    Console.WriteLine("Human can walk");
+  }
+}
