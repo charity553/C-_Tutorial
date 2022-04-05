@@ -1,0 +1,39 @@
+// how to create methods inside the Main class
+class Program
+{
+  static void MyMethod() 
+  {
+    // code to be executed
+  }
+}
+
+// how to call methods
+static void MyMethod() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  MyMethod();
+}
+
+// Outputs "I just got executed!"
+
+
+// A method can be called multiple times
+static void MyMethod() 
+{
+  Console.WriteLine("I just got executed!");
+}
+
+static void Main(string[] args)
+{
+  MyMethod();
+  MyMethod();
+  MyMethod();
+}
+
+// I just got executed!
+// I just got executed!
+// I just got executed!
