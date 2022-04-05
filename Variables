@@ -1,0 +1,18 @@
+// How to declare variables
+type variableName = value
+// with example
+// how to declare strings
+string name = "Charity";
+Console.WriteLine(name)
+
+// how to decalre integers
+int myNum = 15;
+myNum = 20; // myNum is now 20
+Console.WriteLine(myNum);
+
+// Constants
+const double pi = 3.142;
+
+// How to display variables
+string name = "Charity";
+Console.WriteLine("Hello " + name +"!");
